@@ -34,6 +34,7 @@
 .addmodal {
   width: 100vw;
   height: fit-content;
+
   top: 5%;
 }
 
@@ -43,9 +44,11 @@
 }
 .closed {
   transform: translateY(-200vh);
+  display: none;
 }
 .opened {
   transform: translateY(0vh);
+  z-index: 10;
 }
 * {
   margin: 0;
